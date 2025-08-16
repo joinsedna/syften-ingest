@@ -1,7 +1,5 @@
 {
   "name": "@sedna/syften-ingest",
-  "module": "index.ts",
-  "type": "module",
   "private": true,
   "scripts": {
     "dev": "bun run --hot src/server.ts",

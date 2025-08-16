@@ -1,7 +1,12 @@
 {
   "framework": null,
   "installCommand": "bun install",
-  "buildCommand": "",
+  "buildCommand": "bun run build",
   "devCommand": "bun run dev",
-  "outputDirectory": "."
+  "outputDirectory": ".",
+  "functions": {
+    "api/*.ts": {
+      "includeFiles": "src/**"
+    }
+  }
 }

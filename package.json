@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "bun run --hot src/server.ts",
+    "build": "tsc",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {

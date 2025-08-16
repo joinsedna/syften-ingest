@@ -1,5 +1,5 @@
 {
-  "name": "syften-discord-webhook",
+  "name": "@sedna/syften-ingest",
   "module": "index.ts",
   "type": "module",
   "private": true,
